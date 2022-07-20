@@ -3,7 +3,7 @@
 """
 Created on Wed May 18 19:01:39 2022
 
-@author: philipwallace
+@author: kjwallace
 """
 
 import disnake 
@@ -22,13 +22,13 @@ class CSV_Channel(commands.Cog):
         
     @commands.command(
         name = 'CSVChannel',
-        description = 'Creates a CSV containing every message and user in the #Introduction channel'
+        description = 'Creates a CSV containing every message and user in the channel in which the message was sent'
         )
     async def cacheChannel(self, context: Context, *, intro: str = None) -> None:
         columns = ['username', 'disc', 'message_content', 'mentions', 'time_stamp']
         df = pd.DataFrame(columns = columns)
         messages = await context.channel.history(limit=None).flatten()
-        #discriminate between real intros and current user response to intro
+        #discriminate between real intros and current user response to intro -- feature removed
         if intro is not None:
             for message in messages:
                 #member = await disnake.Member(context.guild.getch_member(message.author.id))
