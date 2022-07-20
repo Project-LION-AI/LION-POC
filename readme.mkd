@@ -1,0 +1,44 @@
+# Project LION
+
+[copy paste of: https://www.notion.so/talentdao/Project-Lion-e89232d39b324008b63bc7f1ffa2feb4]
+
+
+<aside>
+💡 **L.I.O.N:** **l**anguage **i**nformatics on **o**rganizational **n**etworks
+
+</aside>
+
+## Overview
+
+The utility of network analysis has never been more clear than in web3. The Ethereum blockchain alone has a daily volume of over a million transactions—all of which are public record—allowing us to draw up edges connecting an ever-expanding network of nodes. 
+
+There is much to learn about the nature of web3 through this lens. For DAOs specifically, transaction data can provide insight into on-chain governance operations and degrees of decentralization.
+
+However, many DAO operations occur off-chain. When it comes to generating insights about community-run, internet-native organizations, there is a particular piece of information that is both deeply insightful and stored off-chain: communication.
+
+Organizational Network Analysis [ONA] looks at both network and language layers of an organization. Natural language processing [NLP] tools can be used to extract psychometric properties like engagement, turnover intent, and cultural fit by analyzing the language layer within each edge of the network. [[1](https://www.gsb.stanford.edu/faculty-research/working-papers/fitting-or-standing-out-tradeoffs-structural-cultural-embeddedness)]
+
+Project Lion is an experiment in taking this idea to the next level. Using DAO communication data, state-of-the-art NLP tools, and novel methodology, we envision a psychometric system that moves beyond topics, lexicons, and word frequencies to develop adaptive community-trained intelligent agents which serve to simulate the communication patterns of complex human systems.
+
+### Project Details
+
+Classical NLP tools [e.g., nltk, spacy, gensim, empath, etc.] largely dominate the spheres of ONA work. Project Lion intends to explore the next generation of NLP tools to extend far beyond current capabilities.
+
+By fine-tuning transformer models like GPT2, [GPT3](https://en.m.wikipedia.org/wiki/GPT-3) [[2](https://arxiv.org/abs/2005.14165v4)], and [GPT-J](https://huggingface.co/EleutherAI/gpt-j-6B) on Discord communication data, we believe a new layer of psychometric insight is waiting to reveal itself in the aggregate voice of a community.
+
+We refer to this concept as the **digital twin:** a digital copy of a group’s language patterns summed up into a single AI voice.
+
+We hypothesize that:
+
+- [H1] Given enough training data, GPT models are capable of responding to questions that reflect the aggregate responses of a community.
+- [H2] GPT models can uncover language patterns not recognized by classical NLP tools such as deviations from the community voice.
+- [H3] The use of GPT models for classification tasks allow for less rigid, dynamic topic modeling for supplementing ONA.
+
+If these can be validated, Project Lion may change the way large group psychometrics are measured in the practical setting. Today, the most common approach is to use organization-wide surveys to understand the psychometric properties of large groups. If fine-tuned GPT models are sufficiently reflective of the aggregate voice of a community as hypothesized, we may be able to deploy surveys to AI agents rather than humans while maintaining relative accuracy.
+
+---
+
+#### **Footnotes:**
+
+1. Goldberg, A., Srivastava, S.B., Manian, V.G., Monroe, W., & Potts, C. (2015). Fitting in or Standing Out? The Tradeoffs of Structural and Cultural Embeddedness. *Internal Communications & Organizational Behavior eJournal*.
+2. Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., ... & Amodei, D. (2020). Language models are few-shot learners. *Advances in neural information processing systems*, *33*, 1877-1901.

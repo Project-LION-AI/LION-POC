@@ -1,0 +1,4 @@
+pandas
+disnake==2.5.1
+aiohttp
+psycopg2
