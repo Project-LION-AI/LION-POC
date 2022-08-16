@@ -4,7 +4,7 @@
 
 
 <aside>
-💡 **L.I.O.N:** **l**anguage **i**nformatics on **o**rganizational **n**etworks
+💡 L.I.O.N: language informatics for organizational networks
 
 </aside>
 
