@@ -1,5 +1,9 @@
 # Project LION
 
+THIS REPOSITORY IS [CURRENTLY] DEPRECATED.
+
+We plan to push a big update soon! In the meantime, check out our classification demo repository!
+
 [copy paste of: https://www.notion.so/talentdao/Project-Lion-e89232d39b324008b63bc7f1ffa2feb4]
 
 
